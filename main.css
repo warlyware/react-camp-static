@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+}
+
+.btn-wrapper {
+  position: relative;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.how-to-attend {
+  background-image:  url(img/background.png);
+  background-size:   cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+  z-index: -1;
+  position: relative;
+}
+
+.attend-overlay {
+  width: 100%;
+  margin: 0;
+  display: table;
+  background: rgba(0, 0, 0, 0.4);
+  height: 500px;
+  z-index: 1000;
+  position: absolute;
+}
+
+.jumbotron {
+  background-color: #001A1F;
+  width: 100%;
+  margin: 0;
+  display: table;
+  height: 500px;
+}
+
+
+.logo-wrapper {
+  padding-top: 40px;
+  /*position: relative;*/
+  width: 620px;
+  margin: 10px auto;
+  height: 200px;
+ }
+
+.logo-img {
+  padding-left: 15px;
+  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+.logo-text {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 10em;
+  color: #02D7FF;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.or-div {
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  text-align: center;
+  font-size: 2em;
+  padding: 25px;
+  padding-top: 30px;
+  border: 6px solid #02D7FF;
+  border-radius: 100px;
+}
+
+.or-div-wrapper {
+  padding-top: 190px;
+}
+
+.register-btn {
+  border-radius: 20px;
+  background-color: #02D7FF;
+  color: #001A1F;
+  width: 120px;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 17px 20px;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.scheduled-time {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 35px;
+}
+
+.tagline {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.8em;
+  color: white;
+  padding-top: 120px;
+}
+
+
